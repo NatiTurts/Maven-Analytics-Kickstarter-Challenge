@@ -1,14 +1,15 @@
 body{
     background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v412-kul-13-fluidshape_2.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=6d630f0b9f8fc6973b484ca8e0f18ead);
     background-repeat: no-repeat;
-    background-size: 1300px, 800px;
+    background-size: 1550px, 800px;
 }
 
-.neu_header{
+
+.header{
     position: fixed;
     left: 15px;
     top: 10px;
-    width: 1270px;
+    width: 1485px;
     height: 80px;
     color: white;
     display: flex;
@@ -23,14 +24,69 @@ body{
     border-right: 0px rgba(40,40,40,0.35) solid;
 }
 
-.neu_boxl{
+.boxl{
     position: fixed;
     left: 15px;
     top: 105px;
-    width: 500px;
-    height: 375px;
-    width: 300px;
-    height: 375px;
+    width: 412px;
+    height: 650px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: rgba(224,224,224, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 0px rgba(255,255,255,0.4) solid;
+    border-bottom: 0px rgba(40,40,40,0.35) solid;
+    border-right: 0px rgba(40,40,40,0.35) solid;
+}
+
+.boxr{
+    position: fixed;
+    right: 30px;
+    top: 105px;
+    width: 412px;
+    height: 650px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: rgba(224,224,224, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 0px rgba(255,255,255,0.4) solid;
+    border-bottom: 0px rgba(40,40,40,0.35) solid;
+    border-right: 0px rgba(40,40,40,0.35) solid;
+}
+
+.boxcb{
+    position: fixed;
+    left: 442px;
+    top: 105px;
+    width: 638px;
+    height: 351px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: rgba(224,224,224, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 0px rgba(255,255,255,0.4) solid;
+    border-bottom: 0px rgba(40,40,40,0.35) solid;
+    border-right: 0px rgba(40,40,40,0.35) solid;
+}
+
+.boxct{
+    position: fixed;
+    left: 442px;
+    top: 471px;
+    width: 638px;
+    height: 351px;
     color: white;
     display: flex;
     justify-content: center;
