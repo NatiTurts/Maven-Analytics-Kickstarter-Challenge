@@ -1,0 +1,6 @@
+Success Projects = 
+CALCULATE(
+	COUNTA('Maven_Kickstarter_Projects'[ID]),
+	'Maven_Kickstarter_Projects'[State]
+		IN { "Successful" }
+)

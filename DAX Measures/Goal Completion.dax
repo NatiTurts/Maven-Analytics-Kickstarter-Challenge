@@ -1,0 +1,5 @@
+Goal Completion = 
+DIVIDE(
+	SUM('Maven_Kickstarter_Projects'[Pledged]),
+	SUM(' Maven_Kickstarter_Projects'[Goal])
+)
